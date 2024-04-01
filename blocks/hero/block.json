@@ -1,0 +1,21 @@
+{
+	"apiVersion": 2,
+	"name": "maulik-blocks-plugin/hero",
+	"version": "0.1.0",
+	"title": "Hero Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false,
+		"color": {
+            "text": true,
+            "background": true,
+            "link": true
+        }
+	},
+	"textdomain": "maulik-blocks-plugin",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
